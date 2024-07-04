@@ -1,0 +1,100 @@
+body,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+b,
+i {
+  display: block;
+}
+
+button {
+  margin-top: 15px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  background-color: #79bd49;
+}
+
+p,
+b,
+i,
+button {
+  font-size: 12px;
+}
+
+img {
+  padding-top: 5px;
+}
+
+.container {
+  width: 1200px;
+  padding-top: 20px;
+  padding-bottom: 70px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-image: url(./img/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.top-block-first-el,
+.top-block-second-el,
+.bottom-block-first-el,
+.bottom-block-second-el {
+  display: flex;
+  gap: 5px;
+}
+
+.top-block-second-el,
+.bottom-block-second-el {
+  flex-direction: row-reverse;
+}
+
+.text-block-right {
+  width: 170px;
+}
+
+.text-block-left {
+  text-align: end;
+  width: 210px;
+}
+
+.top-block,
+.bottom-block {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.top-block {
+  gap: 250px;
+  margin-bottom: 100px;
+}
+
+.bottom-block {
+  gap: 210px;
+}
+
+.img-1 {
+  width: 70px;
+}
+
+.img-2 {
+  width: 140px;
+}
+
+.img-3 {
+  width: 70px;
+}
+
+.img-4 {
+  width: 180px;
+}
